@@ -27,6 +27,7 @@ public class Workshop11Application {
 			new DefaultApplicationArguments(args);
 		// return the args from the java args as list of strings
 		List optsVal = appArgs.getOptionValues("port");
+		logger.info("optsVal > " + optsVal);
 		// var to hold up the port number to be pass on to the spring boot app
 		String portNumber = null;
 		// check if the opt arg is null or the first elem is null as 

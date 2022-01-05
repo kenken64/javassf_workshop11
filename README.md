@@ -26,3 +26,15 @@ git remote add origin https://github.com/kenken64/javassf_workshop11.git
 ```
 mvn spring-boot:run -Dspring-boot.run.arguments=--port=8081
 ```
+
+17. Windows env var
+```
+set PORT=8085
+echo %PORT%
+```
+
+18. Mac env var
+```
+export PORT=8085
+echo $PORT
+```
