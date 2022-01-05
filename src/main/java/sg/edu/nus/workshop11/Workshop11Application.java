@@ -17,7 +17,7 @@ public class Workshop11Application {
 	// Instantiate the logger
 	private static final Logger logger = LoggerFactory.getLogger(Workshop11Application.class);
 	// The default fallback port used by the spring boot application
-	private static final String DEFAULT_PORT = "8082";
+	private static final String DEFAULT_PORT = "3000";
 	public static void main(String[] args) {
 		logger.info("Workshop 11");
 		// init the apring app
@@ -30,7 +30,7 @@ public class Workshop11Application {
 		// var to hold up the port number to be pass on to the spring boot app
 		String portNumber = null;
 		// check if the opt arg is null or the first elem is null as 
-		// before retrieving it from the env variablel
+		// before retrieving it from the env variable
 		if(optsVal == null  || optsVal.get(0) == null){
 			// retrieve from the OS env variable
 			portNumber = System.getenv("PORT");

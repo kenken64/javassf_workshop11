@@ -21,3 +21,8 @@ java.runtime.version=17
 ```
 git remote add origin https://github.com/kenken64/javassf_workshop11.git
 ```
+
+16. With port arg 
+```
+mvn spring-boot:run -Dspring-boot.run.arguments=--port=8081
+```
